@@ -25,4 +25,5 @@ module.exports = {
 	  req.logout();
 	  res.redirect('/');
 	}
+
 }

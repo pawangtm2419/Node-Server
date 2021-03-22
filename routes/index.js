@@ -26,7 +26,7 @@ router.get('/login', (req, res, next) => {
 router.post('/login', cors(), postLogin);
 
 /* GET /logout */
-router.get('/logout', getLogout);
+router.post('/logout', cors(), getLogout);
 
 /* GET /profile */
 router.get('/profile', (req, res, next) => {
